@@ -1,10 +1,9 @@
 import 'dart:convert';
-import 'package:assignment_b19_m11/core/recipe.dart';
-import 'package:assignment_b19_m11/presentation/feature/home/widget/recipe_card.dart';
 import 'package:flutter/material.dart';
-
 import '../../../core/app_colors.dart';
-import '../../../core/recipe_data.dart';
+import '../../../core/recipe.dart';
+import '../../../data/recipe_data.dart';
+import 'widget/recipe_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -45,11 +44,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: ListView.builder(
           shrinkWrap: true,
           itemCount: recipes.length,
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 12),
           itemBuilder: (context, index) {
-            return Padding(
-              padding: EdgeInsets.only(top: 10, left: 8, right: 8),
-              child: RecipeCard(recipe: recipes[index]),
-            );
+            return RecipeCard(recipe: recipes[index]);
           },
         ),
       ),

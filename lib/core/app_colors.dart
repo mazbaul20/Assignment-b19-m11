@@ -6,8 +6,8 @@ class AppColors {
   static const Color background = Color(0xFFF9F9F9); // Soft off-white/cream
   static const Color backgroundDark = Colors.blue;
   static const Color cardSurface = Colors.white;
-  static const Color primaryAccent = Color(0xFFE67E22); // Warm appetizing orange
-  static const Color pastelPeach = Color(0xFFFFF0E5); // Soft pastel container
+  static const Color primaryAccent = Color(0xFF0D47A1); // Warm appetizing orange
+  static const Color pastelPeach = Color(0xFFE5F0FF); // Soft pastel container
   static const Color textDark = Color(0xFF1E1E1E); // Dark charcoal text
   static const Color borderLight = Color(0xFFEEEEEE); // Subtle card border
   static const Color borderDark = Color(0xFFBDBDBD); // Subtle card border

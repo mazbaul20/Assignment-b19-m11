@@ -1,6 +1,6 @@
 const String recipeJson = '''
 {
-  "recipes": [
+   "recipes": [
     {
       "title": "Pasta Carbonara",
       "description": "Creamy pasta dish with bacon and cheese.",

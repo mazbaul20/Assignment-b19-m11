@@ -1,17 +1,34 @@
-# assignment_b19_m11
+# Food Recipes App 🍽️
 
-A new Flutter project.
+A simple Flutter application built to demonstrate **JSON parsing**, **data modeling**, and **dynamic UI rendering** using `ListView.builder`.
 
-## Getting Started
+## ✨ Features
+- **JSON Parsing:** Parses local JSON data containing a list of food recipes.
+- **Data Modeling:** Maps JSON objects cleanly into a structured Dart `Recipe` model class.
+- **Expandable Recipe Cards:** Displays recipe titles in a clean `ListView`, and tapping any card reveals its description and dynamic list of ingredients.
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
+---
+![Flutter Profile Card UI](assets/ss.png)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
+- **Framework:** Flutter
+- **Language:** Dart
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/mazbaul20/Assignment-b19-m11
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Assignment-b19-m11
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
